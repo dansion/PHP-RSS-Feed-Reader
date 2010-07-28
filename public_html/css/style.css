@@ -1,0 +1,262 @@
+/*
+
+Made By Carl Owens
+
+carlowenscouk@hotmail.com
+
+*/
+
+body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.clearDivs{
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+
+a{
+
+
+	text-decoration:none;
+}
+a:hover {
+
+
+	text-decoration:underline;
+}
+.red {
+	color: #d10000;	
+}
+#page {
+	padding: 0px;
+	width: 1000px;
+	height: auto;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+#page_top {
+	padding: 0px;
+	width: 1000px;
+	height: 40px;
+	clear: both;
+	margin: 0px;
+	border-bottom: 1px solid #c2c2c2;
+}
+#page_top_logo {
+	padding: 0px;
+	width: 500px;
+	height: 33px;
+	float: left;
+	margin: 0px;
+	padding-top: 7px;
+}
+#page_top_right {
+	padding: 0px;
+	width: 500px;
+	height: 40px;
+	float: left;
+	margin: 0px;
+	text-align:right;
+}
+#page_top_right_left {
+	padding: 0px;
+	width: 300px;
+	height: 38px;
+	float: left;
+	margin: 0px;
+	text-align:right;
+	padding-top: 2px;
+}
+#page_top_right_right {
+	padding: 0px;
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin: 0px;
+	text-align:right;
+}
+#page_top_right p {
+	padding: 0px;
+	margin: 0px;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size:14px;
+	line-height: 60px;
+}
+#page_spacer {
+	padding: 0px;
+	width: 1000px;
+	height: 15px;
+	clear: both;
+	margin: 0px;
+}
+#page_holder {
+	padding: 0px;
+	width: 1000px;
+	height: auto;
+	clear: both;
+	margin: 0px;
+}
+#page_holder_left {
+	padding: 0px;
+	width: 218px;
+	height: auto;
+	float: left;
+	margin: 0px;
+	border: 1px solid #c2c2c2;
+	border-bottom: 0px solid #c2c2c2;
+}
+#page_holder_content {
+	padding: 0px;
+	width: 770px;
+	height: auto;
+	float: left;
+	margin: 0px;
+	padding-left: 10px;
+}
+#page_holder_footer {
+	padding: 0px;
+	width: 1000px;
+	height: 20px;
+	float: left;
+	clear: both;
+	margin: 0px;
+}
+#page_holder_left ul {
+	padding: 0px;
+	width: 218px;
+	height: auto;
+	margin: 0px;
+	
+}
+#page_holder_left ul li {
+	padding: 0px;
+	width: 218px;
+	height: 25px;
+	margin: 0px;
+	border-bottom: 1px solid #c2c2c2;
+	border-top: 1px solid #ffffff;
+	list-style:none;
+	text-align:right;
+	background-color: #f3f3f3;
+	overflow: hidden;
+}
+#page_holder_left ul li a {
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #333333;
+	display:block;
+	text-decoration:none;
+	padding-right: 5px;
+	line-height: 25px;
+	background-color: #f3f3f3;
+	overflow: hidden;
+}
+#page_holder_left ul li a:hover{
+	background-color: #cbcbcb;
+}
+#page_holder_left ul li p{
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #333333;
+	display:block;
+	text-decoration:none;
+	padding-right: 5px;
+	line-height: 25px;
+	background-color: #ffffff;
+	overflow: hidden;
+	font-weight:bold;
+}
+#page_holder_content h1 {
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+#page_holder_content h2 {
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+#page_holder_content p {
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+
+
+#page_holder_content table {
+
+	background-color: #f3f3f3;
+	border: 1px dotted #c2c2c2;
+	border-collapse: collapse;
+
+
+}
+#page_holder_content table td {
+	padding: 3px;
+}
+
+#page_holder_content table p {
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #333333;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#page_holder_content table input {
+	width: 250px;
+	margin-left: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 1px solid #333333;
+}
+#page_holder_content table input.checkbox {
+	width: 15px;
+	margin-left: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 1px solid #333333;
+}
+#page_holder_content table select {
+	margin-left: 5px;
+	border: 1px solid #333333;
+}
+.button {
+	cursor:pointer;
+}
+#page_holder_content table textarea {
+	width: 250px;
+	height: 200px;
+	margin-left: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 1px solid #333333;
+}

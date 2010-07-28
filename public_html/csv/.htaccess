@@ -1,0 +1,3 @@
+<Files *.csv>
+	ForceType applicaton/octet-stream
+</Files>

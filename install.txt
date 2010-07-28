@@ -1,0 +1,13 @@
+Feed Reader Application written by Carl Owens (carlowenscouk@hotmail.com, www.carlowens.me)
+
+Database schema can be found in schema directory.
+
+Database connection settings can be found in class.Database.php which is inside the includes folder.
+Must change the following variables found on lines 9, 10 and 11:
+$host_name = '';
+$db_username = '';
+$db_password = '';
+
+csv directory under the public_html must write permissions
+
+public_html directory must be the http root.

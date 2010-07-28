@@ -1,0 +1,30 @@
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `feed_reader`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `web_feeds`
+--
+
+CREATE TABLE IF NOT EXISTS `web_feeds` (
+  `feed_id` int(11) NOT NULL auto_increment,
+  `feed_name` varchar(255) collate latin1_general_ci NOT NULL,
+  `feed_link` varchar(255) collate latin1_general_ci NOT NULL,
+  `created` timestamp NULL default NULL,
+  `modified` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  PRIMARY KEY  (`feed_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `web_feeds`
+--
+
+INSERT INTO `web_feeds` (`feed_id`, `feed_name`, `feed_link`, `created`, `modified`) VALUES
+(1, 'Reddit', 'http://rss.reddit.com/ ', '2008-12-09 17:15:53', '2008-12-09 17:15:53'),
+(2, 'Digg', 'http://feeds.digg.com/digg/popular.rss ', '2008-12-09 17:16:10', '2008-12-09 17:16:10'),
+(3, 'BBC', 'http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/uk/rss.xml ', '2008-12-09 17:16:25', '2008-12-09 17:16:25');
